@@ -23,5 +23,9 @@ public void setId(int id) {
     public Aluno(String nome) {
         this.nome = nome;
     }
+
+	public Aluno(int id) {
+		this.id = id;
+	}
 }
    
